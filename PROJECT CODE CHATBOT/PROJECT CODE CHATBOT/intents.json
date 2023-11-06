@@ -1,0 +1,433 @@
+{
+  "intents": [
+    {
+      "tag": "doing",
+      "patterns": [
+       "hi, how are you doing?","how's it going?","how are you doing today?"
+      ],
+      "responses": [
+      "i'm fine. how about yourself?","i'm doing well. how about you?","i'm doing great. what about you?"
+      ]
+    },
+    {
+      "tag": "good",
+      "patterns": [
+       "i'm pretty good. thanks for asking.","never better, thanks.","i'm absolutely lovely, thank you."
+      ],
+      "responses": [
+      "no problem. so how have you been?","so how have you been lately?","everything's been good with you?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+       "i've been great. what about you?","i've actually been pretty good. you?","i haven't been better. how about yourself?"
+      ],
+      "responses": [
+      "i've been good. i'm in school right now.","i'm actually in school right now.","i started school recently."
+      ]
+    },
+    {
+      "tag": "school",
+      "patterns": [
+       "what school do you go to?","which school do you attend?","where are you going to school?"
+      ],
+      "responses": [
+      "i go to pcc.","i'm attending pcc right now.","i'm going to pcc."
+      ]
+    },
+    {
+      "tag": "like",
+      "patterns": [
+       "do you like it there?","are you enjoying it there?","how do you like it so far?"
+      ],
+      "responses": [
+      "it's okay. it's a really big campus.","it's not bad. there are a lot of people there.","i like it so far. my classes are pretty good right now."
+      ]
+    },
+    {
+      "tag": "luck",
+      "patterns": [
+       "good luck with school.","good luck with that.","i wish you luck."
+      ],
+      "responses": [
+      "thank you very much.","thanks."
+      ]
+    },
+    {
+      "tag": "today",
+      "patterns": [
+       "it's an ugly day today.","it doesn't look very nice outside today.","i wish it was a nicer day today."
+      ],
+      "responses": [
+      "i know. i think it may rain.","you're right. i think it's going to rain later.","that is true. i hope it doesn't rain."
+      ]
+    },
+    {
+      "tag": "summer",
+      "patterns": [
+       "it's the middle of summer, it shouldn't rain today.","in the middle of the summer, it shouldn't be raining.","it wouldn't rain in the middle of the summer."
+      ],
+      "responses": [
+      "that would be weird.","that wouldn't seem right.","it wouldn't seem right if it started raining right now."
+      ]
+    },
+    {
+      "tag": "ninety",
+      "patterns": [
+       "yeah, especially since it's ninety degrees outside.","considering that it's over ninety degrees outside, that would be weird.","it would be weird if it started raining in ninety degree weather."
+      ],
+      "responses": [
+      "i know, it would be horrible if it rained and it was hot outside.","exactly, it wouldn't be nice if it started raining. it's too hot.","any rain right now would be pointless."
+      ]
+    },
+    {
+      "tag": "right",
+      "patterns": [
+       "yes, it would be.","i know, you're absolutely right.","that's right, it really would be."
+      ],
+      "responses": [
+      "i really wish it wasn't so hot every day. ","i wish it would cool off one day.","i want it to cool down some."
+      ]
+    },
+    {
+      "tag": "winter",
+      "patterns": [
+       "me too. i can't wait until winter.","that's how i feel, i want winter to come soon.","i know what you mean, i can't wait until it's winter."
+      ],
+      "responses": [
+      "i like winter too, but sometimes it gets too cold.","i enjoy the winter, but it gets really cold sometimes.","winter is great. i wish it didn't get so cold sometimes though."
+      ]
+    },
+    {
+      "tag": "cold/hot",
+      "patterns": [
+       "i'd rather be cold than hot.","i know what you mean, but i'd rather be cold than hot.","i would rather deal with the winter than the summer."
+      ],
+      "responses": [
+      "me too.","that's exactly how i feel."
+      ]
+    },
+    {
+      "tag": "nice",
+      "patterns": [
+       "it's such a nice day.","isn't it a nice day?","don't you think it's nice out?"
+      ],
+      "responses": [
+      "yes, it is.","it really is.","yes, i think so too."
+      ]
+    },
+    {
+      "tag": "rain",
+      "patterns": [
+       "it looks like it may rain soon.","it seems that it may rain today.","i think that it's going to rain."
+      ],
+      "responses": [
+      "yes, and i hope that it does.","hopefully it will.","i hope that it does rain."
+      ]
+    },
+    {
+      "tag": "come",
+      "patterns": [
+       "why is that?","how come?","you like the rain?"
+      ],
+      "responses": [
+      "i really love how rain clears the air.","i like how clear the sky gets after it rains.","the sky looks so clean after it rains. i love it."
+      ]
+    },
+
+     {
+      "tag": "smells",
+      "patterns": [
+       "me too. it always smells so fresh after it rains.","i feel the same way. it smells so good after it rains.","i understand. rain does make it smell cleaner."
+      ],
+      "responses": [
+      "yes, but i love the night air after it rains.","i especially love the night air when it rains.","i love most how it is at night after it rains."
+      ]
+    }, {
+      "tag": "really",
+      "patterns": [
+       "really? why is it?","really? why?","how come?"
+      ],
+      "responses": [
+      "because you can see the stars perfectly.","the stars look so much closer after it rains.","you can see the stars so much more clearly after it rains."
+      ]
+    },
+    {
+      "tag": "rains",
+      "patterns": [
+       "i really hope it rains today.","i really want it to rain today.","i would love for it to rain today."
+      ],
+      "responses": [
+      "yeah, me too.","yeah, so do i."
+      ]
+    },
+    {
+      "tag": "weekend",
+      "patterns": [
+       "i really want to go to the beach this weekend.","i would like to take a trip to the beach this weekend.","it would be nice to go to the beach sometime this weekend."
+      ],
+      "responses": [
+      "that sounds like fun. what's the weather going to be like?","a trip to the beach would be fun. how is the weather going to be?","what's the weather going to be like? i may want to go too."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+       "i heard that it's going to be warm this weekend.","the forecast says that it will be warm on the weekend.","the weather this weekend is supposed to be warm."
+      ],
+      "responses": [
+      "is it going to be perfect beach weather?","so do you think it'll be perfect weather for the beach?","will it be good beach weather?"
+      ]
+    },
+    {
+      "tag": "sounds",
+      "patterns": [
+       "i believe so.","it sounds like it will be.","i think it will be."
+      ],
+      "responses": [
+      "good. i hope it doesn't cool off this weekend.","i really hope it doesn't get cold.","it wouldn't be good if it got cold this weekend."
+      ]
+    },
+    {
+      "tag": "beach",
+      "patterns": [
+       "i know. i really want to go to the beach.","that would ruin things, i want to go so badly.","i want this trip to be perfect, i hope it stays warm."
+      ],
+      "responses": [
+      "but you know that california weather is really unpredictable.","the weather in california is unpredictable, so you never know.","this california weather is so uncertain, it's impossible to know what'll happen."
+      ]
+    },
+    {
+      "tag": "minute",
+      "patterns": [
+       "you're right. one minute it's hot, and then the next minute it's cold.","that is true. the weather is constantly changing.","i know. every day the weather seems different."
+      ],
+      "responses": [
+      "i really wish the weather would just stay the same.","it would be nice if the weather would never change.","i would love it if it wasn't always so unpredictable."
+      ]
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+       "i do too. that way we can have our activities planned ahead of time.","that would be great, then we could plan things sooner.","that would make it easier for us to make plans."
+      ],
+      "responses": [
+      "yeah, that would make things a lot easier.","true. predictable weather would make life easier."
+      ]
+    },
+    {
+      "tag": "alice",
+      "patterns": [
+       "hello, may i speak to alice please?","hi, how are you. is alice there?","is alice available?"
+      ],
+      "responses": [
+      "this is she. how's it going?","speaking. what's up?","you're talking to her."
+      ]
+    },
+    {
+      "tag": "call",
+      "patterns": [
+       "i've been trying to call you all day.","why haven't you answered the phone?","i've called you a hundred times today."
+      ],
+      "responses": [
+      "sorry about that. i was cleaning up.","my bad, i had chores to do.","i was busy doing something. i apologize."
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+       "it's okay.","that's all right.","no problem."
+      ],
+      "responses": [
+      "so what were you calling me about?","what was the reason for your call?","did you need something?"
+      ]
+    },
+    {
+      "tag": "tomorrow",
+      "patterns": [
+       "oh, i just wanted to see if you wanted to hang out tomorrow.","i want to do something tomorrow with you.","do you want to do something tomorrow?"
+      ],
+      "responses": [
+      "sure, what did you want to do?","sounds good. what did you have in mind?","is there somewhere special you wanted to go?"
+      ]
+    },
+    {
+      "tag": "movie",
+      "patterns": [
+       "maybe we can go see a movie or something.","i was thinking about seeing a movie.","how about a movie?"
+      ],
+      "responses": [
+      "that sounds like fun. let's do it.","okay, let's go see a movie. ","a movie sounds good."
+      ]
+    },
+    {
+      "tag": "then",
+      "patterns": [
+       "i'll see you tomorrow then.","until then.","call me tomorrow then."
+      ],
+      "responses": [
+      "see you then. goodbye.","talk to you later."
+      ]
+    },
+    {
+      "tag": "girl",
+      "patterns": ["have you seen the new girl in school?","there's a new girl in school, have you seen her yet?","have you met the new girl?"
+      ],
+      "responses": ["no, i haven't","i haven't seen her yet.","no. have you?"
+         
+      ]
+    },
+    {
+      "tag": "pretty",
+      "patterns": ["she's really pretty.","i think that she is very pretty.","she's one of the prettiest girls at the school."
+       
+      ],
+      "responses": ["describe her to me.","tell me how she looks.","what does she look like?"
+      
+      ]
+    },
+    {
+      "tag": "short",
+      "patterns": ["she's not too tall.","she's kind of short.","well, she's quite short."
+       
+      ],
+      "responses": ["well, how tall is she?","what height is she?","how tall would you say that she is?"
+      
+      ]
+    },
+    {
+      "tag": "five",
+      "patterns": ["she's about five feet even.","she's probably about five feet.","i would say she's only five feet."
+       
+      ],
+      "responses": ["what does she look like, though?","that's nice, but tell me what she looks like","what about her facial features?"
+      
+      ]
+    },
+    {
+      "tag": "brown",
+      "patterns": ["she has pretty light brown eyes.","the first thing i noticed was her beautiful brown eyes.","she has light brown eyes, absolutely beautiful."
+       
+      ],
+      "responses": ["i may know which girl you're talking about.","i think i might've bumped into her before.","i think i know who you're talking about."
+      
+      ]
+    },
+    {
+      "tag": "seen",
+      "patterns": ["so you have seen her around?","are you telling me that you've seen her before?","have you seen her?"
+       
+      ],
+      "responses": ["yes, i have.","i believe so."
+      
+      ]
+    },
+
+    {
+      "tag": "yesterday",
+      "patterns": ["why weren't you at school yesterday?","what reason do you have for missing school?","why didn't you go to school yesterday?"
+       
+      ],
+      "responses": ["i wasn't really feeling well.","i was sick.","i stayed home because i wasn't feeling well."
+      
+      ]
+    },
+    {
+      "tag": "what",
+      "patterns": ["what was wrong with you?","how were you sick?","what was your problem?"
+       
+      ],
+      "responses": ["my stomach was upset.","i had a stomachache.","my stomach was bothering me."
+      
+      ]
+    },
+    {
+      "tag": "better",
+      "patterns": ["do you feel better now?","did it get any better?","are you feeling any better?"
+       
+      ],
+      "responses": ["i don't really feel too well yet.","i'm still feeling under the weather.","i'm still feeling a little sick."
+      
+      ]
+    },
+    
+    {
+      "tag": "anything",
+      "patterns": ["do you want anything to make you feel better?","would you like anything for your stomach?","i'm going to the store, would you like any pepto bismol?"
+       
+      ],
+      "responses": ["no, thanks. i already took some medicine.","i took something earlier.","that's okay."
+      
+      ]
+    },
+    {
+      "tag": "feel",
+      "patterns": ["i hope you feel better","get better."
+       
+      ],
+      "responses": ["thank you.","thanks a lot."
+      
+      ]
+    },
+    {
+      "tag": "favorite",
+      "patterns": [
+       "what's your favorite movie?","which movie is your favorite to watch?","out of every movie that you've seen, which one is your favorite?"
+      ],
+      "responses": [
+      "my favorite movie is superbad.","i have to say, my favorite movie is superbad.","i'm going to have to say that superbad is the best movie ever."
+      ]
+    },
+    {
+      "tag": "why",
+      "patterns": [
+       "oh, why is that?","is that right? why?","you think so, how come?"
+      ],
+      "responses": [
+      "it's the funniest movie that i've ever seen.","honestly, it is one of the funniest movies i've seen in a long time.","well, superbad is super funny."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+       "that's true. it is a very funny movie.","you're right. that movie is hilarious.","you're not lying, i found that movie absolutely hilarious."
+      ],
+      "responses": [
+      "you've seen it before?","i didn't think you saw that movie.","i didn't know that you saw superbad before."
+      ]
+    }
+    ,
+    {
+      "tag": "theaters",
+      "patterns": [
+       "yes, i saw that movie the first day it came out in theaters.","i went to see it the day it came out.","i made sure to be in line to see it the first day it came out."
+      ],
+      "responses": [
+      "didn't you laugh through the whole movie?","i was laughing through the whole movie.","i couldn't keep from laughing throughout the whole movie."
+      ]
+    }
+    ,
+    {
+      "tag": "tears",
+      "patterns": [
+       "me too. that movie brought tears to my eyes.","i couldn't help laughing, either.","i was laughing hysterically the whole time; my stomach muscles hurt afterwards."
+      ],
+      "responses": [
+      "mine too.","same here.","that's exactly how i felt."
+      ]
+    }
+    ,
+    {
+      "tag": "bought",
+      "patterns": [
+       "i have it on dvd at my house if you want to come over and watch it.","i bought the movie. would you like to come to my house and watch it?","i got the movie when it came out on dvd, do you want to come over?"
+      ],
+      "responses": [
+      "sure, let's go.","of course."
+      ]
+    }
+
+    
+  ]
+}
